@@ -3,3 +3,7 @@ void call(){
         println config.message
     }
 }
+
+def sayHello() {
+    println "hello there!"
+}
