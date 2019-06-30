@@ -1,4 +1,4 @@
-void call(){
+void call(config){
     for(def i = 0; i < config.number; i++){
         println config.message
     }
