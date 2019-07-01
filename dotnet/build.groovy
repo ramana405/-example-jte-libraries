@@ -7,3 +7,12 @@ bat "\"${tool 'MSBuild'}\" DancingGoat.sln /p:Configuration=Release /p:Platform=
   
 echo "ending msbuild"
 }
+
+
+def test1() {
+ stage('build') {
+   steps {
+    echo "Helloooooooooooooooooo"
+   }
+} 
+}
