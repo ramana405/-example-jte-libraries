@@ -11,8 +11,7 @@ echo "ending msbuild"
 
 def test1() {
  stage('build') {
-   steps {
-    echo "Helloooooooooooooooooo"
-   }
-} 
+       echo "Helloooooooooooooooooo"
+ 
+  } 
 }
